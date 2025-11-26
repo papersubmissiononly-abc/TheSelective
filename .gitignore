@@ -1,0 +1,76 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+
+# PyTorch checkpoints
+*.pth
+*.pt
+*.ckpt
+logs*/
+runs/
+checkpoints/
+
+# Jupyter
+.ipynb_checkpoints
+*.ipynb
+
+# Environments
+.env
+.venv
+env/
+venv/
+
+# IDEs
+.idea/
+.vscode/
+.claude/
+.gemini/
+*.swp
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data files
+data/
+*.lmdb
+*.lmdb-lock
+*.pkl
+*.pickle
+scratch*/
+
+# Output
+results/
+output/
+outputs/
+generated/
+*.log
+*.out
+slurm-*.out
+
+# Temporary
+tmp/
+temp/
+*.tmp
+
+# Model weights
+weights/
+pretrained/
+*.bin
+
+# Experiment outputs
+*_evaluation_results/
+*_docking_output/
+
+# Images (keep for README if needed)
+# *.png
+# *.jpg
